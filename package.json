@@ -1,0 +1,15 @@
+{
+  "name": "blog-shared-types",
+  "version": "0.1.0",
+  "private": false,
+  "sideEffects": false,
+  "files": [
+    "types"
+  ],
+  "exports": {
+    ".": {
+      "types": "./types/index.ts"
+    }
+  },
+  "types": "./types/index.ts"
+}
