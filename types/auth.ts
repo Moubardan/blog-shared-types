@@ -4,6 +4,10 @@ export interface UserDTO {
   email: string;
 }
 
+export interface ProfileDTO extends UserDTO {
+  createdAt: string;
+}
+
 export interface JwtPayload {
   sub: string;
   name: string;
